@@ -9,6 +9,19 @@
 ALIOTH *
 Additional CSS <3
 -------------------------------------------------------------------*/
+/*scrollbar theme*/
+::-webkit-scrollbar {width:6px;}
+::-webkit-scrollbar-track { background: #000;}
+::-webkit-scrollbar-thumb:hover {background: #E94E30;}
+::-webkit-scrollbar-thumb {
+/* background-image: -webkit-linear-gradient(45deg, #ffbd84, #ff1f8e);
+background-image: -o-linear-gradient(45deg, #ffbd84, #ff1f8e);
+background-image: linear-gradient(45deg, #ffbd84, #ff1f8e); */
+background: #E94E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f35d3f, #E94E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f35d3f, #E94E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .proj_link{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -1756,7 +1769,7 @@ body.loading span.toggle-line {
     z-index: -1;
     width: 50px;
     height: 50px;
-    background: #dedede;
+    background: #f35d3f;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1922,6 +1935,10 @@ ul.product-tags li a {
 
 .footer-logo {
     margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 170px;
 }
 
 .footer-menu ul {
