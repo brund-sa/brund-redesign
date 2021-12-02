@@ -6,9 +6,17 @@
 */
 
 /*------------------------------------------------------------------
-Template:	Alioth - Creative Portfolio & Agency Template
-Version:	1.0
-Last change:	27/08/2020
+ALIOTH *
+Additional CSS <3
+-------------------------------------------------------------------*/
+.proj_link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b2e31;
+}
+
+/*------------------------------------------------------------------
+END
 -------------------------------------------------------------------*/
 
 html,
@@ -3439,8 +3447,8 @@ body.dark ul.check-payments li:hover {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    /* margin-bottom: 100px; */
-    margin-bottom: 0px;
+    margin-bottom: 100px;
+    /* margin-bottom: 0px; */
 
 }
 
@@ -8233,7 +8241,7 @@ body.dark a.circular-button:hover {
 
 .alioth-embed-video .plyr--video .plyr__control.plyr__tab-focus,
 .alioth-embed-video .plyr--video .plyr__control:hover,
-..alioth-embed-video plyr--video .plyr__control[aria-expanded="true"] {
+.alioth-embed-video plyr--video .plyr__control[aria-expanded="true"] {
     background: #000
 }
 
